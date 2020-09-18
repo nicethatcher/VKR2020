@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b4"
+    android:orientation="vertical"
+    android:gravity="top">
+
+    <TextView
+        android:id="@+id/textviewchefspage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+         />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Menu"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:textColorHint="#000000"
+        android:hint="Enter food items here"
+        android:id="@+id/chefsspeciality"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textColor="#000000"
+        android:id="@+id/add"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:id="@+id/list_item"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#000000"
+        android:id="@+id/save"/>
+
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Chef"
+        android:onClick="signOut"
+        android:textColor="#000000"
+        android:id="@+id/change" />
+
+
+
+</LinearLayout>
